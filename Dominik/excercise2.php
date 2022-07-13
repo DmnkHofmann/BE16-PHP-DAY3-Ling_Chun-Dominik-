@@ -7,14 +7,13 @@
    </head>
    <body>
        <?php
-       $name = "Dominik";
-       $b = 0;
-       for( $i=0; $i<5; $i++)
+       $array = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+       foreach($array as $value)
        {
-           $a += 10;
-           $b += 5 ;
+           echo "$value <br/>";
        }
-       echo ("At the end of the loop a=$a and b=$b");
        ?>
    </body>
 </html>
+
+
