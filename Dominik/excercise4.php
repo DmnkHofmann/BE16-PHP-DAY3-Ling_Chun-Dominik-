@@ -7,7 +7,7 @@
    </head>
    <body>
        <?php
-      function exercise4()
+      function frontback()
       {
           for ($i = 1; $i < 101; $i++) {
               if ($i % 5 == 0 && $i % 3 == 0) {
@@ -21,7 +21,7 @@
               }
           }
       }
-      exercise4();
+      frontback();
        ?>
    </body>
 </html>
